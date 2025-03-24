@@ -2,6 +2,9 @@ npx create-next-app@latest
 npm install next@rc react@rc react-dom@rc --legacy-peer-deps
 npx shadcn@latest 
 npm install next-themes
+npx shadcn@latest add dropdown-menu
 
 
 
+//setup sinetry
+npm install @sentry/nextjs --legacy-peer-deps
