@@ -8,3 +8,7 @@ npx shadcn@latest add dropdown-menu
 
 //setup sinetry
 npm install @sentry/nextjs --legacy-peer-deps
+follow mauall setup sentry
+
+//setup kind
+npm i @kinde-oss/kinde-auth-nextjs
