@@ -8,7 +8,12 @@ npx shadcn@latest add dropdown-menu
 
 //setup sinetry
 npm install @sentry/nextjs --legacy-peer-deps
-follow mauall setup sentry
+follow mauall setup sentryp
 
 //setup kind
 npm i @kinde-oss/kinde-auth-nextjs
+
+
+//setup database neon
+npm i drizzle-orm @neondatabase/serverless --legacy-peer-deps
+npm i -D drizzle-kit tsx dotenv --legacy-peer-deps
