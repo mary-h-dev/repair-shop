@@ -20,7 +20,7 @@ This project was built based on the following user needs:
 
 ...
 
-> ℹ️ *[Full list here →](https://github.com/YOUR_USERNAME/YOUR_REPO/wiki/User-Stories)*
+> ℹ️ *[Full list here →](https://github.com/maryamHabibpourr/repair-shop/wiki)*
 
 ---
 
