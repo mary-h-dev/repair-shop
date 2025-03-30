@@ -35,5 +35,9 @@ npx shadcn@latest add input select textarea checkbox
 
 
 
-//permission Authorization
+//permission Authorization assign by management
 npm i @kinde-oss/kinde-auth-nextjs @kinde/management-api-js --legacy-peer-deps
+
+
+//server action
+npm i next-safe-action --legacy-peer-deps

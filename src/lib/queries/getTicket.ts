@@ -9,3 +9,4 @@ export async function getTicket(id: number) {
 
     return ticket[0]
 }
+

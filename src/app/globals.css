@@ -121,6 +121,7 @@
   }
 }
 
+
 @layer utilities {
   .bg-home-img {
     background-image: url("/images/home-img.jpg");
