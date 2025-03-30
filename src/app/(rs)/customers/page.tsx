@@ -23,6 +23,7 @@ export default async function Customers({
             {/* {results.length ? <CustomerTable data={results} /> : (
                 <p className="mt-4">No results found</p>
             )} */}
+            <p>{JSON.stringify(results)}</p>
         </>
     )
 }
