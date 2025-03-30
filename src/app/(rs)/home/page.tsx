@@ -1,16 +1,5 @@
-import React from 'react'
+import { redirect } from "next/navigation";
 
-export const metadata = {
-    title: "Home",
+export default function Home() {
+  return redirect("/tickets");
 }
-
-
-const Home = () => {
-  return (
-    <div>
-      Home Page
-    </div>
-  )
-}
-
-export default Home
