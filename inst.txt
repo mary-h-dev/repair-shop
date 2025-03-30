@@ -23,6 +23,8 @@ npm i -D drizzle-kit tsx dotenv --legacy-peer-deps
 //assign some queries
 SELECT * FROM CUSTOMERS WHERE id = 1;
 UPDATE Tickets SET tech = 'new-ticket@example.com'
+SELECT * FROM Tickets where id = 4
+UPDATE tickets SET tech = 'msmarrydeveloper@gmail.com' WHERE id = 4
 
 
 
@@ -30,3 +32,8 @@ UPDATE Tickets SET tech = 'new-ticket@example.com'
 npm i zod drizzle-zod react-hook-form @hookform/resolvers --legacy-peer-deps
 npx shadcn@latest add form
 npx shadcn@latest add input select textarea checkbox
+
+
+
+//permission Authorization
+npm i @kinde-oss/kinde-auth-nextjs @kinde/management-api-js --legacy-peer-deps

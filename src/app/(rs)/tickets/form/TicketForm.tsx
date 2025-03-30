@@ -98,7 +98,6 @@ export default function TicketForm({
                     onSubmit={form.handleSubmit(submitForm)}
                     className="flex flex-col md:flex-row gap-4 md:gap-8"
                 >
-                {/* <p>{JSON.stringify(form.getValues())}</p> */}
 
                     <div className="flex flex-col gap-4 w-full max-w-xs">
 
@@ -108,7 +107,7 @@ export default function TicketForm({
                             disabled={!isEditable}
                         />
 
-                        {/* {isManager && techs ? (
+                        {isManager && techs ? (
                             <SelectWithLabel<insertTicketSchemaType>
                                 fieldTitle="Tech ID"
                                 nameInSchema="tech"
@@ -120,7 +119,7 @@ export default function TicketForm({
                                 nameInSchema="tech"
                                 disabled={true}
                             />
-                        )} */}
+                        )}
 
                         {ticket?.id ? (
                             <CheckboxWithLabel<insertTicketSchemaType>
@@ -154,20 +153,21 @@ export default function TicketForm({
                             disabled={!isEditable}
                         />
 
-                        {/* {isEditable ? (
+                        {isEditable ? (
                             <div className="flex gap-2">
                                 <Button
                                     type="submit"
                                     className="w-3/4"
                                     variant="default"
                                     title="Save"
-                                    disabled={isSaving}
+                                    // disabled={isSaving}
                                 >
-                                    {isSaving ? (
+                                    {/* {isSaving ? (
                                         <>
                                             <LoaderCircle className="animate-spin" /> Saving
                                         </>
-                                    ) : "Save"}
+                                    ) : "Save"} */}
+                                    save
                                 </Button>
 
                                 <Button
@@ -176,13 +176,13 @@ export default function TicketForm({
                                     title="Reset"
                                     onClick={() => {
                                         form.reset(defaultValues)
-                                        resetSaveAction()
+                                        // resetSaveAction()
                                     }}
                                 >
                                     Reset
                                 </Button>
                             </div>
-                        ) : null} */}
+                        ) : null}
 
                     </div>
 
