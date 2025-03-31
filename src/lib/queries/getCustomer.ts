@@ -2,6 +2,7 @@ import { db } from "@/db"
 import { customers } from "@/db/schema"
 import { eq } from "drizzle-orm"
 
+
 export async function getCustomer(id: number) {
     const customer = await db.select()
         .from(customers)
@@ -9,3 +10,5 @@ export async function getCustomer(id: number) {
 
     return customer[0]
 }
+
+

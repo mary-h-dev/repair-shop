@@ -49,7 +49,13 @@ export default function CustomerTable({ data }: Props) {
         "zip",
     ]
 
+
+
+    
     const columnHelper = createColumnHelper<selectCustomerSchemaType>()
+
+
+
 
     const ActionsCell = ({ row }: CellContext<selectCustomerSchemaType, unknown>) => {
         return (
@@ -91,6 +97,8 @@ export default function CustomerTable({ data }: Props) {
 
     ActionsCell.displayName = "ActionsCell"
 
+
+
     const columns = [
         columnHelper.display({
             id: "actions",
@@ -104,12 +112,16 @@ export default function CustomerTable({ data }: Props) {
             })
         })]
 
+
+
     const table = useReactTable({
         data,
         columns,
         getCoreRowModel: getCoreRowModel(),
     })
 
+
+    
     return (
         <div className="mt-6 rounded-lg overflow-hidden border border-border">
             <Table className="border">
